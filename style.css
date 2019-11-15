@@ -27,7 +27,7 @@ a {
 }
 
 nav {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     overflow: hidden;
     font-weight: bolder;
@@ -38,6 +38,7 @@ nav {
     background-color: white;
     border-bottom: 1px solid lightgray;
     position: fixed;
+    z-index: 0;
     top: 0;
     right: 0;
     left: 0;
@@ -57,8 +58,9 @@ nav ul {
 }
 
 nav div {
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    max-width: 100%;
     padding-right: 75em;
     padding-left: 1em;
 }
@@ -178,6 +180,7 @@ figure img:hover {
     flex-direction: row;
     margin-left: 9.5em;
     align-items: flex-start;
+    z-index: 1;
 }
 
 /* Footer */
@@ -214,6 +217,13 @@ input, textarea {
 }
 
 /* Breakpoints */
+
+@media only screen and (max-width: 1700px) {
+
+    nav div {
+        padding-right: 60em;
+    }
+}
 
 @media only screen and (max-width: 1300px) {
 
