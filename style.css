@@ -29,6 +29,7 @@ a {
 nav {
     display: flex;
     align-items: center;
+    overflow: hidden;
     font-weight: bolder;
     font-size: 1.2em;
     max-width: 100%;
@@ -58,6 +59,7 @@ nav ul {
 nav div {
     display: flex;
     align-items: center;
+    position: relative;
     padding-right: 75em;
     padding-left: 1em;
 }
@@ -208,6 +210,29 @@ label {
 
 /* Breakpoints */
 
+@media only screen and (max-width: 1300px) {
+
+    * {
+        margin: 0;
+    }
+
+    footer {
+        color: blue;
+    }
+
+    nav div {
+        display: flex;
+        align-items: center;
+        padding-right: 45em;
+    }
+
+
+    .featurestory {
+        padding-top: 2em;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
 
     * {
@@ -218,37 +243,28 @@ label {
         max-width: 100%;
     }
 
-    h1 {
-        text-align: center;
-    }
-
     h6 {
         font-size: 0.5
     }
 
     hr {
-        width: 50em;
-    }
-
-    p {
-        max-width: 100%
+        width: 45em;
     }
 
     footer {
         display: block;
+        color: green;
     }
 
     figcaption {
         overflow: hidden;
         display: none;
-
     }
 
     nav div {
         display: flex;
         align-items: center;
-        padding-right: 28em;
-        padding-left: 1em;
+        padding-right: 30em;
     }
 
     .featurestory{
@@ -264,10 +280,6 @@ label {
 
 
 @media only screen and (max-width: 768px) {
-
-    nav {
-        overflow: hidden;
-    }
 
     img {
         max-height: 100%;
