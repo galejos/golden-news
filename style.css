@@ -59,7 +59,6 @@ nav ul {
 nav div {
     display: flex;
     align-items: center;
-    position: relative;
     padding-right: 75em;
     padding-left: 1em;
 }
