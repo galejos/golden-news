@@ -231,6 +231,10 @@ input, textarea {
         margin: 0;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     h6 {
         padding-bottom: 1em;
     }
