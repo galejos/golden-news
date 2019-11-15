@@ -203,6 +203,12 @@ label {
     width: 120px;
 }
 
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
 #send {
       margin-left: 9em;
 }
