@@ -215,8 +215,8 @@ label {
         margin: 0;
     }
 
-    footer {
-        color: blue;
+    h6 {
+        padding-bottom: 1em;
     }
 
     nav div {
@@ -224,7 +224,6 @@ label {
         align-items: center;
         padding-right: 45em;
     }
-
 
     .featurestory {
         padding-top: 2em;
@@ -252,7 +251,6 @@ label {
 
     footer {
         display: block;
-        color: green;
     }
 
     figcaption {
